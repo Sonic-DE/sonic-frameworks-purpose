@@ -28,3 +28,4 @@ CMakeLists.txt.user
 /cmake-build*
 .cache
 /build*/
+.ccls-cache
