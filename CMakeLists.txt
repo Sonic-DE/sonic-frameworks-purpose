@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.30)
 
 project(Purpose)
 
-find_package(ECM 6.30.0 REQUIRED NO_MODULE)
+find_package(ECM 6.31.0 REQUIRED NO_MODULE)
 
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 
@@ -41,8 +41,8 @@ if(USE_DBUS)
   set(HAVE_DBUS ON)
 endif()
 
-set(KF_VERSION "6.30.0") # handled by release scripts
-set(KF_DEP_VERSION "6.30.0") # handled by release scripts
+set(KF_VERSION "6.31.0") # handled by release scripts
+set(KF_DEP_VERSION "6.31.0") # handled by release scripts
 
 find_package(KF6 ${KF_DEP_VERSION} REQUIRED COMPONENTS CoreAddons I18n Config Kirigami Notifications KIO Service)
 
